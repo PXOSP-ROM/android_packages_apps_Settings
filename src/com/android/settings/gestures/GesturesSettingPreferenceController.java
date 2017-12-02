@@ -77,11 +77,7 @@ public class GesturesSettingPreferenceController extends BasePreferenceControlle
         controllers.add(new DoubleTapScreenPreferenceController(context, FAKE_PREF_KEY)
                 .setConfig(ambientDisplayConfiguration));
         controllers.add(new PreventRingingParentPreferenceController(context, FAKE_PREF_KEY));
-<<<<<<< HEAD
-=======
-        controllers.add(new SwipeToScreenshotPreferenceController(context, FAKE_PREF_KEY));
         controllers.add(new VolumeButtonMusicControlPreferenceController(context, FAKE_PREF_KEY));
->>>>>>> b1e2d8be7a... Settings: Forward Port Volume Long Press Skip Tracks [2/2]
         return controllers;
     }
 }
