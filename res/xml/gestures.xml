@@ -111,4 +111,10 @@
         android:summary="@string/global_actions_advanced_reboot_summary"
         android:defaultValue="true" />
 
+    <com.android.settings.custom.preference.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:title="@string/volume_button_music_control_title"
+        android:summary="@string/volume_button_music_control_summary"
+        android:defaultValue="false"/>
+
 </PreferenceScreen>
