@@ -174,4 +174,7 @@
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
 
+    <!-- Per-app volume -->
+    <string name="app_volume">App volume</string>
+
 </resources>
