@@ -89,7 +89,7 @@ class AppLockSettingsPreferenceController(
             host.showAppLockSecurityPrompt()
             return true
         }
-        return false
+        return super.handlePreferenceTreeClick(preference)
     }
 
     fun handleActivityResult(activityResult: ActivityResult?) {
