@@ -175,4 +175,8 @@
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
     <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка устройства при вводе корректного ПИНа/пароля</string>
 
+    <!-- Hidden apps -->
+    <string name="hidden_apps_title">Скрытые приложения</string>
+    <string name="hidden_apps_summary">Приложения, которые должны быть скрыты в лаунчере.</string>
+
 </resources>
