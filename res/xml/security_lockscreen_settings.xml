@@ -132,4 +132,17 @@
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="lockscreen_tweaks_category"
+        android:title="@string/lockscreen_tweaks_category_title"
+        android:order="1001">
+
+    	<com.android.settings.custom.preference.SecureSettingSwitchPreference
+	    android:key="lockscreen_battery_info"
+            android:title="@string/lockscreen_battery_info_title"
+            android:summary="@string/lockscreen_battery_info_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
