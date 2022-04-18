@@ -20,5 +20,5 @@ import com.android.internal.logging.nano.MetricsProto
 import com.android.settings.dashboard.DashboardFragment
 
 abstract class PxospDashboardFragment: DashboardFragment() {
-    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.PXOSP
+    override fun getMetricsCategory(): Int = MetricsProto.MetricsEvent.PXOSP_SETTINGS
 }
