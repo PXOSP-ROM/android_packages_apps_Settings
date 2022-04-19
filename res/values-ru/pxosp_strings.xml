@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
+    <string name="face_unlock_method_title">Разрешить разблокировку лица на экране блокировки</string>
+    <string name="face_unlock_method_default">Когда экран включен</string>
+    <string name="face_unlock_method_swipe">При свайпе на экране блокировки</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="global_actions_advanced_reboot_summary">Показывать дополнительные опции перезагрузки в меню питания</string>
+
+    <string name="lockscreen_tweaks_category_title">Кастомизация экрана блокировки</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о батарее</string>
+    <string name="lockscreen_battery_info_summary">Отображение тока зарядки, вольтажа, температуры батареи на экране блокировки</string>
+
+    <!-- App lock -->
+    <string name="app_lock_title">Блокировка приложений</string>
+    <string name="app_lock_summary_singular">1 приложение защищено</string>
+    <string name="app_lock_summary_plural"><xliff:g example="2" id="Number of applications">%1$d</xliff:g> приложений защищено</string>
+    <string name="app_lock_authentication_dialog_title">Разблокируйте для продолжения</string>
+    <string name="app_lock_packages_title">Защищенные приложения</string>
+    <string name="app_lock_packages_summary">Выбор приложений для защиты с помощью биометрии или данных аутентификации</string>
+    <string name="app_lock_timeout_title">Таймаут автоблокировки</string>
+    <string name="app_lock_timeout_summary">Время, через которое разблокированное приложение в фоне будет автоматически заблокировано</string>
+    <string name="app_lock_notifications_title">Скрытие уведомлений</string>
+    <string name="app_lock_notifications_summary">
+          Содержание уведомления будет скрыто для выбранных приложений, когда они заблокированы.
+          Всплывающие уведомления будут автоматически отключены.
+    </string>
+    <string name="app_lock_notifications_disabled_summary">Сперва выберите приложение для блокировки</string>
+    <string name="app_lock_biometrics_allowed_title">Включить использование биометрии для разблокировки</string>
+    <string name="app_lock_footer_text">Разговоры будут автоматически скрыты по таймауту</string>
+    <string name="app_lock_5_seconds">5 секунд</string>
+    <string name="app_lock_10_seconds">10 секунд</string>
+    <string name="app_lock_30_seconds">30 секунд</string>
+    <string name="app_lock_1_minute">1 минута</string>
+    <string name="app_lock_5_minutes">5 минут</string>
+    <string name="app_lock_10_minutes">10 минут</string>
+    <string name="app_lock_30_minutes">30 минут</string>
+
+    <!-- App List -->
+    <string name="search">Поиск</string>
+    <string name="search_apps">Поиск приложений</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Настройка вибрации при вызове</string>
+    <string name="incall_vibrate_connect_title">Вибрирация при ответе</string>
+    <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
+    <string name="incall_vibrate_disconnect_title">Вибрация при отбое</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонка и уведомлений</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Скриншот жестом</string>
+    <string name="three_finger_gesture_summary">Свайп тремя пальцами для снятия скриншота</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Скрывать меню питания на экране блокировки</string>
+    <string name="lockscreen_power_menu_disabled_summary">Скрывать меню действий кнопки питания на заблокированном экране</string>
+
+    <!-- Adaptive Playback -->
+    <string name="adaptive_playback_screen_title">Умная пауза</string>
+    <string name="adaptive_playback_enabled">Включить Умную паузу</string>
+    <string name="adaptive_playback_disabled_summary">Выключено</string>
+    <string name="adaptive_playback_intro_text">Автоматически приостанавливает воспроизведение мультимедиа, когда звук отключен, и автоматически возобновляет воспроизведение, когда громкость восстанавливается в течение установленного времени.</string>
+    <string name="adaptive_playback_timeout_title">Задержка в </string>
+    <string name="adaptive_playback_timeout_none">Без задержки</string>
+    <string name="adaptive_playback_timeout_none_summary">Включено (без задержки)</string>
+    <string name="adaptive_playback_timeout_30_secs">30 секунд</string>
+    <string name="adaptive_playback_timeout_30_secs_summary">Включено (30 секунд)</string>
+    <string name="adaptive_playback_timeout_1_min">1 минута</string>
+    <string name="adaptive_playback_timeout_1_min_summary">Включено (1 минута)</string>
+    <string name="adaptive_playback_timeout_2_min">2 минуты</string>
+    <string name="adaptive_playback_timeout_2_min_summary">Включено (2 минуты)</string>
+    <string name="adaptive_playback_timeout_5_min">5 минут</string>
+    <string name="adaptive_playback_timeout_5_min_summary">Включено (5 минут)</string>
+    <string name="adaptive_playback_timeout_10_min">10 минут</string>
+    <string name="adaptive_playback_timeout_10_min_summary">Включено (10 минут)</string>
+
+   <!-- Hardware info -->
+   <!-- Label for device's hardware platform value -->
+   <string name="platform_revision">Платформа</string>
+   <!-- Label for device's hardware ram size -->
+   <string name="total_ram">Всего доступно ОЗУ</string>
+
+    <!-- Hotspot VPN -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-соединения этого устройства для подключения к сети</string>
+
+    <!-- Volume rocker music control -->
+    <string name="volume_button_music_control_title">Управление воспроизведением</string>
+    <string name="volume_button_music_control_summary">Когда экран выключен, долгое нажатие на кнопки громкости переключает композиции</string>
+
+    <!-- Double Tap to Sleep Statusbar -->
+    <string name="double_tap_sleep_gesture_title">Нажмите, чтобы перейти в режим сна</string>
+    <string name="double_tap_sleep_gesture_summary">Дважды коснитесь в любом месте строки состояния, чтобы перевести устройство в спящий режим</string>
+
+    <!--Double Tap to Sleep Lockscreen-->
+    <string name="what_to_do_title">Что делать</string>
+    <string name="double_tap_sleep_lockscreen_title">Двойное нажатие на экране блокировки для сна</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Предотвращение случайного пробуждения</string>
+    <string name="proximity_wake_summary">Блокировать экран и кнопки когда устройство в кармане</string>
+
+</resources>
