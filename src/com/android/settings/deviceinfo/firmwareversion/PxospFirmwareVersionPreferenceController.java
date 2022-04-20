@@ -29,14 +29,14 @@ import androidx.preference.Preference;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class CustomFirmwareVersionPreferenceController extends BasePreferenceController {
+public class PxospFirmwareVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "CustomFirmwareVersion";
-    private static final String VERSION_PROPERTY = "ro.build.version.custom";
+    private static final String TAG = "PxospFirmwareVersion";
+    private static final String VERSION_PROPERTY = "ro.build.version.pxosp";
 
     private final PackageManager mPackageManager;
 
-    public CustomFirmwareVersionPreferenceController(Context context, String preferenceKey) {
+    public PxospFirmwareVersionPreferenceController(Context context, String preferenceKey) {
         super(context, preferenceKey);
         mPackageManager = mContext.getPackageManager();
     }
@@ -60,7 +60,7 @@ public class CustomFirmwareVersionPreferenceController extends BasePreferenceCon
 
         final Intent intent = new Intent();
         intent.setAction(Intent.ACTION_VIEW);
-        intent.setData(Uri.parse(mContext.getString(R.string.custom_firmware_uri)));
+        intent.setData(Uri.parse(mContext.getString(R.string.pxosp_firmware_uri)));
         if (mPackageManager.queryIntentActivities(intent, 0).isEmpty()) {
             // Don't send out the intent to stop crash
             Log.w(TAG, "queryIntentActivities() returns empty");
