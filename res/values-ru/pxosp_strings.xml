@@ -182,4 +182,8 @@
     <!-- Per-app volume -->
     <string name="app_volume">Громкость приложения</string>
 
+    <!-- General -->
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+    <string name="longpress_to_clipboard">Скопировать длинным нажатием</string>
+
 </resources>
