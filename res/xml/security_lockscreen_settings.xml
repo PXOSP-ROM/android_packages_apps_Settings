@@ -155,7 +155,7 @@
         android:title="@string/lockscreen_tweaks_category_title"
         android:order="1003">
 
-    	<com.android.settings.custom.preference.SecureSettingSwitchPreference
+    	<com.android.settings.custom.preference.SystemSettingSwitchPreference
 	    android:key="lockscreen_battery_info"
             android:title="@string/lockscreen_battery_info_title"
             android:summary="@string/lockscreen_battery_info_summary"
