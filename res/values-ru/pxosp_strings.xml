@@ -179,4 +179,7 @@
     <string name="hidden_apps_title">Скрытые приложения</string>
     <string name="hidden_apps_summary">Приложения, которые должны быть скрыты в лаунчере. Требуется перезагрука!</string>
 
+    <!-- Per-app volume -->
+    <string name="app_volume">Громкость приложения</string>
+
 </resources>
